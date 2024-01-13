@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c29724-fe5e-4726-a522-f55f70e7e27b" name="Changes" comment="Initial comit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/commonMain/kotlin/app/livesets/manager/database/DaoFacade.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/commonMain/kotlin/app/livesets/manager/database/DaoRealm.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/commonMain/kotlin/app/livesets/manager/database/domain/AccountModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/commonMain/kotlin/app/livesets/manager/database/domain/AccountType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/commonMain/kotlin/app/livesets/manager/database/realm/AccountEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/commonMain/kotlin/app/livesets/manager/database/realm/toRealm.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/commonTest/kotlin/app/livesets/manager/database/DaoRealmTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/commonTest/kotlin/app/livesets/manager/database/TestData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desktop/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desktop/src/jvmMain/kotlin/app/livesets/manager/desktop/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +36,17 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="realm-crash" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="realm-crash" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -119,6 +110,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "AndroidSdkUpdater",
     "vue.rearranger.settings.migration": "true"
   }
@@ -322,6 +316,7 @@
       <workItem from="1704370524822" duration="287000" />
       <workItem from="1705135024479" duration="1213000" />
       <workItem from="1705136246270" duration="805000" />
+      <workItem from="1705137094417" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="Copied from main project">
       <option name="closed" value="true" />
