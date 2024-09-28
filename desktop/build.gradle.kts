@@ -1,13 +1,14 @@
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.compose.multiplatform)
+    alias(libs.plugins.kotlin.plugin.compose)
 }
 
-group = "app.livesets"
+group = "app.example"
 version = "1.0.0"
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
     jvm {
         testRuns["test"].executionTask.configure {
             useJUnitPlatform()
