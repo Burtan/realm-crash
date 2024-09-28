@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62c29724-fe5e-4726-a522-f55f70e7e27b" name="Changes" comment="Initial comit">
+    <list default="true" id="62c29724-fe5e-4726-a522-f55f70e7e27b" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/database_jvm.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/desktop_jvm_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/src/androidUnitTest/kotlin/app/livesets/manager/database/MultiPlatformTest.android.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/src/commonTest/kotlin/app/livesets/manager/database/DaoRealmTestWithRobo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/src/commonTest/kotlin/app/livesets/manager/database/MultiPlatformTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/src/jvmTest/kotlin/app/livesets/manager/database/MultiPlatformTest.jvm.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/database/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/desktop/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/hs_err_pid42306.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +61,13 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="realm-crash" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="realm-crash" type="f1a62948:ProjectNode" />
-                <item name="database" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -87,6 +93,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Burtan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Burtan/realm-crash.git",
+    "accountId": "3cb28ee6-9f15-48f2-9590-ed5d67577670"
+  }
+}]]></component>
   <component name="KotlinMultiplatform" KONAN_HOME="$USER_HOME$/.konan/kotlin-native-prebuilt-linux-x86_64-2.0.20" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -113,12 +131,19 @@
     "Gradle.CrashTest.crash.executor": "Run",
     "Gradle.DaoRealmTest.executor": "Run",
     "Gradle.Main [jvm].executor": "Run",
+    "Gradle.realm-crash [allTests].executor": "Run",
     "Gradle.realm-crash [clean].executor": "Run",
     "Gradle.realm-crash [run].executor": "Run",
+    "Gradle.realm-crash [testDebugUnitTest].executor": "Run",
+    "Gradle.realm-crash [testReleaseUnitTest].executor": "Run",
     "Gradle.realm-crash:desktop [run].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/frederik/IdeaProjects/realm-crash",
@@ -130,7 +155,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -147,10 +172,11 @@
       <recent name="$PROJECT_DIR$/src/jvmMain/kotlin/org.example.realmcrash" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="app.livesets.manager.database" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.realm-crash:desktop [run]">
+  <component name="RunManager" selected="Gradle.realm-crash [testReleaseUnitTest]">
     <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="realm-crash.android.main" />
       <option name="DEPLOY" value="true" />
@@ -228,8 +254,8 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":database:cleanJvmTest" />
-            <option value=":database:jvmTest" />
+            <option value=":database:cleanTestDebugUnitTest" />
+            <option value=":database:testDebugUnitTest" />
             <option value="--tests &quot;app.livesets.manager.database.DaoRealmTest&quot;" />
           </list>
         </option>
@@ -241,29 +267,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Main [jvm]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="-DmainClass=org.example.realmcrash.MainKt --quiet" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jvmRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="realm-crash [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="realm-crash [allTests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -274,7 +278,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="allTests" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -285,7 +289,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="realm-crash [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="realm-crash [testDebugUnitTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -296,7 +300,29 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="run" />
+            <option value="testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="realm-crash [testReleaseUnitTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="testReleaseUnitTest" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -331,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.realm-crash:desktop [run]" />
-        <item itemvalue="Gradle.realm-crash [run]" />
-        <item itemvalue="Gradle.realm-crash [clean]" />
-        <item itemvalue="Gradle.realm-crash [run]" />
+        <item itemvalue="Gradle.realm-crash [testReleaseUnitTest]" />
+        <item itemvalue="Gradle.realm-crash [testDebugUnitTest]" />
+        <item itemvalue="Gradle.realm-crash [allTests]" />
         <item itemvalue="Gradle.DaoRealmTest" />
+        <item itemvalue="Gradle.realm-crash:desktop [run]" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704336053571</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updating dependencies fixed thec rash">
+      <option name="closed" value="true" />
+      <created>1727510017057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727510017057</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,6 +449,9 @@
     <MESSAGE value="Removed obsolete gradle.properties" />
     <MESSAGE value="Removed android from database" />
     <MESSAGE value="Removed android from shared" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed android from shared" />
+    <MESSAGE value="Initial comit" />
+    <MESSAGE value="Updating dependencies fixed thec rash" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating dependencies fixed thec rash" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

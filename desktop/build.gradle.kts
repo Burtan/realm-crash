@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.plugin.compose)
 }
 
-group = "app.example"
+group = "app.livesets"
 version = "1.0.0"
 
 kotlin {

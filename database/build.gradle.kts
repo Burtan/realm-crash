@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
+    alias(libs.plugins.android.library)
     alias(libs.plugins.realm)
 }
 
@@ -11,6 +12,7 @@ kotlin {
             useJUnitPlatform()
         }
     }
+    androidTarget()
 
     sourceSets {
         commonMain {
@@ -35,5 +37,19 @@ kotlin {
                 implementation(libs.coroutines.swing)
             }
         }
+
+        val androidUnitTest by getting {
+            dependencies {
+                implementation(libs.robolectric)
+            }
+        }
+    }
+}
+
+android {
+    compileSdk = 35
+    namespace = "app.livesets.manager.database"
+    defaultConfig {
+        minSdk = 21
     }
 }

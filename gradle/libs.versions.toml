@@ -1,9 +1,11 @@
 [versions]
+agp = "8.6.1"
 coroutines = "1.9.0"
 kotlin = "2.0.20"
 compose-multiplatform = "1.6.11"
 kotest = "5.9.1"
 realm = "2.3.0"
+robolectric = "4.13"
 
 [libraries]
 coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
@@ -12,9 +14,11 @@ coroutines-swing = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines
 kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core", version.ref = "kotest" }
 kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version.ref = "kotlin" }
 realm = { group = "io.realm.kotlin", name = "library-base", version.ref = "realm" }
+robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric" }
 
 [plugins]
 compose-multiplatform = { id = "org.jetbrains.compose", version.ref = "compose-multiplatform" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 realm = { id = "io.realm.kotlin", version.ref = "realm"}
 kotlin-plugin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
